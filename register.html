@@ -1,0 +1,73 @@
+register.html: <!DOCTYPE html>
+<html>
+<head>
+
+<title>Register Student</title>
+<link rel="stylesheet" href="style.css">
+
+<!-- Handwriting font -->
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+
+<h2>Student Registration Form</h2>
+
+<form action="process.php" method="POST">
+<pre> 
+<label>Enrollment Number</label>
+<input type="text" name="enrollment" required>
+
+<br>
+<label>Full Name</label>
+<input type="text" name="full_name" required>
+<br>
+
+<label>Email</label>
+<input type="email" name="email" required>
+<br>
+
+<label>Mobile Number</label>
+<input type="text" name="mobile" required>
+<br>
+
+<label>Gender</label>
+<select name="gender">
+    <option>Male</option>
+<option>Female</option>
+</select>
+<br>
+
+<label>Branch</label>
+<select name="branch">
+<option>Computer Engineering</option>
+<option>Mechanical</option>
+<option>Civil</option>
+<option>Electrical</option>
+<option>Information Technology</option>
+</select>
+<br>
+
+<label>Semester</label>
+<select name="semester">
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+</select>
+<br>
+
+
+<label>Date of Birth</label>
+<input type="date" name="dob" min="1990-01-01" max="2012-12-31" required>
+
+<br><br>
+</pre>
+<button type="submit">Register</button>
+
+</form>
+
+</body>
+</html>

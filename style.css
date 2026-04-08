@@ -1,0 +1,84 @@
+css: /* Home page layout */
+.home{
+text-align:center;
+margin-top:150px;
+}
+
+.btn{
+padding:12px 25px;
+background:#a8d8ff;
+color:#333;
+border:none;
+border-radius:8px;
+font-size:20px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#8ec9f7;
+}
+body{
+font-family:Arial;
+background:#f2f2f2;
+text-align:center;
+}
+
+/* Home page layout */
+
+.home{
+margin-top:150px;
+}
+
+/* Handwritten title */
+
+.title{
+font-family:'Dancing Script', cursive;
+font-size:60px;
+color:#444;
+}
+
+/* Form box */
+
+form{
+background:white;
+padding:25px;
+width:360px;
+margin:auto;
+border-radius:12px;
+box-shadow:0 0 10px rgba(0,0,0,0.15);
+}
+
+/* Inputs */
+
+input,select{
+width:90%;
+padding:8px;
+margin:8px;
+border-radius:6px;
+border:1px solid #ccc;
+}
+
+/* Pastel blue button */
+
+button{
+padding:10px 20px;
+background:#a8d8ff;
+color:#333;
+border:none;
+border-radius:8px;
+font-size:16px;
+cursor:pointer;
+}
+
+/* Button hover effect */
+
+button:hover{
+background:#8ec9f7;
+}
+
+/* Home page button */
+
+.btn{
+font-size:18px;
+}
